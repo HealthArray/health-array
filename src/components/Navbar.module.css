@@ -1,0 +1,8 @@
+.navbar {
+    padding: 0.5em 1em;
+    font-size: 2rem;
+    font-weight: 600;
+    background: linear-gradient(to right, #3784CB, #4AAD64) no-repeat;
+    width: 100%;
+    color: white;
+}

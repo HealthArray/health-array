@@ -1,0 +1,25 @@
+.card {
+    border: solid black 1px;
+    border-radius: 10px;
+    height: 150px;
+    width: 300px;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+    cursor: pointer;
+    font-size: 2rem;
+    text-align: left;
+    font-weight: 500;
+    position: relative;
+    background: linear-gradient(#3784CB, #4AAD64) bottom / 100% var(--p, 0) no-repeat;
+    transition: 0.3s, background-position 0s, background-color 0.3s, width 0.3s 0.3s, border-radius 0.3s 0.3s, font-size 0.3s, height 0.3s, padding 0.3s;
+}
+
+.card:hover {
+    --p: 100%;
+    background-position: bottom;
+    color: white;
+    border: none;
+}

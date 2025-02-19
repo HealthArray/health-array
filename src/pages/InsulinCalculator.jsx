@@ -60,7 +60,7 @@ const InsulinCalculator = () => {
                 <TextField
                     value={tbg}
                     type='number'
-                    label={'Taregt Blood Glucose'}
+                    label={'Target Blood Glucose'}
                     onChange={
                         (e) => {
                             setTbg(e.target.value);
